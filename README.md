@@ -61,6 +61,18 @@ turn a small number of neighboring quads into triangles or n-gons as a side effe
 genuinely degenerate faces — an explicit, disclosed tradeoff of that optional step, not the
 normal result.
 
+## Installation
+
+Requires Blender 4.2 or newer.
+
+1. Purchase CadRemesh (see [Availability](#availability)) — you'll receive a `.zip` file.
+2. In Blender, open **Edit → Preferences → Get Extensions**, click the dropdown arrow next to
+   "Install from Disk" (top right), and select the downloaded `.zip`. (Or just drag the `.zip`
+   file straight into Blender's window — 4.2+ installs extensions dropped this way too.)
+3. Blender enables it automatically after installing. If it doesn't, find "CadRemesh" in the
+   Extensions list and switch it on.
+4. In the 3D viewport, press **N** to open the sidebar and look for the **CadRemesh** tab.
+
 ## Availability
 
 CadRemesh is a commercial Blender extension. Purchase and delivery details coming soon.

@@ -9,6 +9,14 @@ guess that structure back out of a triangle soup. CadRemesh reads the STEP file'
 directly and builds quad topology aligned to the actual feature boundaries, instead of
 reverse-engineering it after the fact.
 
+## Before / after
+
+Same real part, same view. A typical triangulated import versus CadRemesh's output:
+
+| Generic triangulated import | CadRemesh output |
+|---|---|
+| ![Triangulated](images/triangulated-generic.png) | ![Quad topology](images/quad-topology.png) |
+
 ## What it does
 
 - **Import STEP** — one Blender object per real solid body in the file, correctly named from

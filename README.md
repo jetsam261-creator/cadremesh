@@ -7,7 +7,9 @@ time a typical retopology tool sees the geometry, the exact original CAD structu
 holes, flat faces) has already been thrown away by the tessellation step, and the tool has to
 guess that structure back out of a triangle soup. CadRemesh reads the STEP file's real structure
 directly and builds quad topology aligned to the actual feature boundaries, instead of
-reverse-engineering it after the fact.
+reverse-engineering it after the fact — the first packaged, one-click Blender addon built this
+way. Every other Blender-side tool (Quad Remesher, Quadify, Smart Remesh) works from the
+tessellated mesh, same as everything else.
 
 ## Before / after
 

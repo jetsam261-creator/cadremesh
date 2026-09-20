@@ -25,6 +25,21 @@ Same comparison on a real 8-part mechanical assembly — more surface complexity
 |---|---|
 | ![Triangulated assembly](images/triangulated-generic-assembly.png) | ![Quad topology assembly](images/quad-topology-assembly.png) |
 
+## Why it matters
+
+Built for rendering and product animation, not game-asset poly budgets — no aggressive stripping
+needed. Full density straight off Import is genuinely usable for this work, not something you
+have to fight down to a workable size first.
+
+- **Shades correctly** — quad topology reads clean under Shade Smooth, no faceting or pinched
+  shading from irregular triangulation.
+- **Subdivision-ready** — Catmull-Clark subdivision behaves the way it's supposed to on quads;
+  triangles don't subdivide predictably.
+- **Deforms better** — quad topology holds its shape more predictably under bending and
+  animation than a triangulated mesh.
+- **Skips the retopology tax** — most STEP imports need a manual cleanup pass before they're
+  usable for a render. This one doesn't.
+
 ## What it does
 
 - **Import STEP** — one Blender object per real solid body in the file, correctly named from

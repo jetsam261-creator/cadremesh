@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+wheels/*.whl
+
+# Real source stays local-only, never in this public-facing repo - the
+# implementation approach (2026-09-20 decision) isn't something to publish.
+# The actual working addon lives here on disk exactly as before; this repo
+# is documentation/portfolio only. Real code only ever ships inside the
+# paid .zip.
+__init__.py
+operators.py
+panels.py
+dependencies.py
+core/
+blender_manifest.toml

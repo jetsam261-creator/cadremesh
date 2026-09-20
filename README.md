@@ -23,9 +23,12 @@ reverse-engineering it after the fact.
 - **Smooth Size Transition** — an opt-in option for a more gradual, less "algorithmic-looking"
   density falloff between fine and coarse areas of the mesh.
 
-100% quad output, no triangles or n-gons, validated against a real 8-part mechanical assembly,
-a medical-grade stent at 0.055mm feature scale, and everyday CAD parts (fans, power supplies,
-linear guides).
+Import and Adjust Density produce 100% quad output — no triangles or n-gons — validated against
+a real 8-part mechanical assembly, a medical-grade stent at 0.055mm feature scale, and everyday
+CAD parts (fans, power supplies, linear guides). Clean Up Topology is the one exception: it can
+turn a small number of neighboring quads into triangles or n-gons as a side effect of removing
+genuinely degenerate faces — an explicit, disclosed tradeoff of that optional step, not the
+normal result.
 
 ## Availability
 

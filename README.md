@@ -80,7 +80,8 @@ normal result.
 
 Requires Blender 4.2 or newer.
 
-1. Purchase CadRemesh (see [Availability](#availability)) — you'll receive a `.zip` file.
+1. Purchase CadRemesh (see [Availability](#availability)) — you're redirected straight to your
+   `.zip` download after payment, no email wait.
 2. In Blender, open **Edit → Preferences → Get Extensions**, click the dropdown arrow next to
    "Install from Disk" (top right), and select the downloaded `.zip`. (Or just drag the `.zip`
    file straight into Blender's window — 4.2+ installs extensions dropped this way too.)
@@ -96,7 +97,10 @@ Everything lives in one N-panel tab in the 3D viewport sidebar:
 
 ## Availability
 
-CadRemesh is a commercial Blender extension. Purchase and delivery details coming soon.
+**[Buy CadRemesh — $10](https://buy.stripe.com/14AdR84fkfJmfVu4tYfIs00)**
+
+One-time payment, no subscription. You're redirected straight to your download after payment —
+delivery is automatic.
 
 ## License
 

@@ -17,6 +17,12 @@ Same real part, same view. A typical triangulated import versus CadRemesh's outp
 |---|---|
 | ![Triangulated](images/triangulated-generic.png) | ![Quad topology](images/quad-topology.png) |
 
+Same comparison on a real 8-part mechanical assembly — more surface complexity, still clean quads:
+
+| Generic triangulated import | CadRemesh output |
+|---|---|
+| ![Triangulated assembly](images/triangulated-generic-assembly.png) | ![Quad topology assembly](images/quad-topology-assembly.png) |
+
 ## What it does
 
 - **Import STEP** — one Blender object per real solid body in the file, correctly named from

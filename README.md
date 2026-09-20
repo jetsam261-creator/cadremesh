@@ -40,6 +40,19 @@ have to fight down to a workable size first.
 - **Skips the retopology tax** — most STEP imports need a manual cleanup pass before they're
   usable for a render. This one doesn't.
 
+## What this is not
+
+- **Not a game-asset tool.** No poly-budget optimization, no rigging-ready edge flow, no
+  guaranteed topology alignment to a character or hard-surface silhouette. Game assets need
+  more control over exactly where every edge loop goes than this gives you.
+- **Not a UV or texturing tool.** Zero UV layers are generated. You'd unwrap manually afterward,
+  same as any import.
+- **Not a color-import tool.** Every part gets one shared marker material — original STEP
+  per-part color data isn't read or applied.
+- **Not a CAD/FEA precision tool.** Clean Up Topology's fix pass can introduce a tiny local
+  position change in an already-defective zone to improve its appearance — fine for a render,
+  not appropriate where exact dimensional accuracy at the mesh level matters.
+
 ## What it does
 
 - **Import STEP** — one Blender object per real solid body in the file, correctly named from
@@ -72,6 +85,12 @@ Requires Blender 4.2 or newer.
 3. Blender enables it automatically after installing. If it doesn't, find "CadRemesh" in the
    Extensions list and switch it on.
 4. In the 3D viewport, press **N** to open the sidebar and look for the **CadRemesh** tab.
+
+## The panel
+
+Everything lives in one N-panel tab in the 3D viewport sidebar:
+
+![CadRemesh panel, annotated](images/panel-annotated.png)
 
 ## Availability
 

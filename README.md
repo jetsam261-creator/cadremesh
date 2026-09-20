@@ -1,5 +1,8 @@
 # CadRemesh
 
+> **This repository is documentation only** — GitHub's "Download ZIP" button won't give you the
+> addon, just this README and its images. **[Get the real thing here — $10 →](https://buy.stripe.com/14AdR84fkfJmfVu4tYfIs00)**
+
 Feature-aware STEP-to-Blender quad retopology, packaged as a real Blender extension.
 
 Every existing STEP import path for Blender works from an already-triangulated mesh — by the

@@ -11,6 +11,8 @@ reverse-engineering it after the fact — the first packaged, one-click Blender 
 way. Every other Blender-side tool (Quad Remesher, Quadify, Smart Remesh) works from the
 tessellated mesh, same as everything else.
 
+**[View the interactive workflow guide →](https://claude.ai/artifact/RgQ9ekqZjBDWfPRjWr23X5)**
+
 ## Before / after
 
 Same real part, same view. A typical triangulated import versus CadRemesh's output:

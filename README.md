@@ -30,13 +30,12 @@ Same comparison on a real 8-part mechanical assembly — more surface complexity
 |---|---|
 | ![Triangulated assembly](images/triangulated-generic-assembly.png) | ![Quad topology assembly](images/quad-topology-assembly.png) |
 
-Two more real parts, same comparison — an LED light bar (round domes, fine engraved
-detail) and a sheet-metal hinge bracket (flat faces, fillets, round holes):
+One more real part, same comparison — an LED light bar with round domes and fine
+engraved detail:
 
 | Generic triangulated import | CadRemesh output |
 |---|---|
 | ![Triangulated LED strip](images/triangulated-led-strip.png) | ![Quad topology LED strip](images/quad-topology-led-strip.png) |
-| ![Triangulated hinge bracket](images/triangulated-hinge-bracket.png) | ![Quad topology hinge bracket](images/quad-topology-hinge-bracket.png) |
 
 ## Why it matters
 
